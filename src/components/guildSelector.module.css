@@ -1,0 +1,23 @@
+.Bar {
+    @apply absolute top-0 left-0 h-screen bg-neutral-800 lg:w-60 sm:w-20 hidden sm:block;
+}
+
+.List {
+    @apply flex flex-col items-center gap-5 py-5;
+}
+
+.ButtonContainer {
+    @apply w-10/12 rounded h-12 bg-neutral-700 ease-in duration-200 hover:bg-neutral-300;
+}
+
+.Button {
+    @apply flex sm:justify-center lg:justify-start text-gray-100 w-full h-full sm:items-center;
+}
+
+.ButtonImage {
+    @apply lg:ml-10 h-10 w-10 rounded-3xl bg-neutral-500 duration-200 hover:ease-in;
+}
+
+.ButtonText {
+    @apply ml-3 text-xl hidden lg:block;
+}
